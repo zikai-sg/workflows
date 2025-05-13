@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "module": "ESNext",
+
+        "baseUrl": "src",
+        "allowJs": true,
+        "checkJs": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src"
+    ]
+}
