@@ -10,7 +10,7 @@ Make sure to check off all the boxes
 
 ## 2. Readability & Maintainability
 
-- [ ] The code easy to read and understand
+- [ ] The code is easy to read and understand
 - [ ] Available and functional names are meaningful and self-explanatory
 - [ ] Comments are clear, concise and necessary
 - [ ] The code modular and reusable
