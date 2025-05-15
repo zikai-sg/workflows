@@ -1,14 +1,37 @@
-# PR Template
+# PR Checklist
 
-### PR Checklist:
+Make sure to check off all the boxes
 
-- [ ] All new/modified JavaScript files have been formatted using Prettier.
-- [ ] The workflow `Prettier Check` has passed successfully.
-- [ ] Relevant documentation has been updated.
-- [ ] All checks have been reviewed and approved.
+## 1. Code Functionality
 
-### PR Instructions:
-1. Ensure all `.js` files are formatted by running `npx prettier --write '**/*.js'`.
-2. Push the formatted changes to the PR branch.
-3. Verify that the `Prettier Check` workflow passes successfully.
-4. Review the checklist above and confirm all tasks are complete.
+- [ ] Functional requirements are met
+- [ ] There are no unexpected side effects
+- [ ] Edge cases and error conditions have been validated
+
+## 2. Readability & Maintainability
+
+- [ ] The code easy to read and understand
+- [ ] Available and functional names are meaningful and self-explanatory
+- [ ] Comments are clear, concise and necessary
+- [ ] The code modular and reusable
+- [ ] Functions and classes are of reasonable size and responsibility
+
+## 3. Performance Optimization
+
+- [ ] There are no unnecessary loops or unnecessarily expensive operations
+- [ ] Database access and API calls are optimized
+- [ ] Caching is applied where applicable
+- [ ] No method can be replaced with one that requires lower governance
+
+## 4. Security
+
+- [ ] Authentication and authorization are properly handled
+- [ ] Sensitive data is encrypted and not hardcoded
+- [ ] Logging is handled securely and without exposing sensitive data
+
+## 5. Coding Standards & Best Practices
+
+- [ ] Company coding standards are upheld
+- [ ] Indentation and formatting is consistent
+- [ ] Magic numbers and hardcoded values are refactored to constants
+- [ ] Error handling is clear and informative
