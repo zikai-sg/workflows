@@ -1,19 +1,11 @@
 {
-    "compilerOptions": {
-        "target": "ES6",
-        "lib": [
-            "ESNext",
-            "DOM"
-        ],
-        "module": "ESNext",
-
-        "baseUrl": "src",
-        "allowJs": true,
-        "checkJs": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true
-    },
-    "include": [
-        "src"
-    ]
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "AMD",
+    "moduleResolution": "node",
+    "sourceMap": false,
+  },
+  "include": [
+    "src/FileCabinet/SuiteScripts/**/*"
+  ],
 }
