@@ -30,7 +30,7 @@ define(['N/runtime', 'N/log'], (runtime, log) => {
             if (stStatus === 'Pending Fulfillment') {
                 objForm.addButton({
                     id: 'custpage_suiteletbutton',
-                    label: 'Open Suitelet',
+                    label: 'Russian Roulette',
                     functionName: 'window.open(' + suiteletURL + ')',
                 });
             }
