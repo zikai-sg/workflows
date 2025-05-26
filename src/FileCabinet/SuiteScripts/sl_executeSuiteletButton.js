@@ -5,17 +5,9 @@
  */
 
 define(['N/runtime', 'N/log'], (runtime, log) => {
-    /**
-     * @param {Object} scriptContext Holds string values for user event
-     * execution contexts.
-     * @param {Record} scriptContext.newRecord The new record being loaded.
-     * @param {N/ui/serverWidget#Form} scriptContext.Form The current form.
-     * @param {String} scriptContext.type The type of operation
-     * invoked by the event (the trigger type).
-     */
     function beforeLoad(scriptContext) {
         try {
-            const recCurrent = scriptContext.newRecord;
+            const recCurrent = scriptContext.newRecord
             const objForm = scriptContext.form;
             // retrieves sales order status
             const stStatus = recCurrent.getValue({
