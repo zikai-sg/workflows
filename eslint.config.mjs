@@ -20,7 +20,7 @@ export default defineConfig([
       amd: true,
     },
     rules: {
-      'jsdoc/require-jsdoc': 'warn',
+      'jsdoc/require-jsdoc': 'error',
       'prefer-const': ['error', {
         destructuring: 'any',
         ignoreReadBeforeAssign: false
