@@ -6,6 +6,7 @@
 
 define(['N/runtime', 'N/log'], (runtime, log) => {
     /**
+     * @governance 0
      * @param {Object} scriptContext Holds string values for user event
      * execution contexts.
      * @param {Record} scriptContext.newRecord The new record being loaded.
@@ -30,7 +31,7 @@ define(['N/runtime', 'N/log'], (runtime, log) => {
             if (stStatus === 'Pending Fulfillment') {
                 objForm.addButton({
                     id: 'custpage_suiteletbutton',
-                    label: 'Open Suitelet',
+                    label: 'Russian Roulette',
                     functionName: 'window.open(' + suiteletURL + ')',
                 });
             }
@@ -41,6 +42,7 @@ define(['N/runtime', 'N/log'], (runtime, log) => {
             });
         }
     }
+
     return {
         beforeLoad: beforeLoad,
     };

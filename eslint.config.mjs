@@ -21,6 +21,15 @@ export default defineConfig([
     },
     rules: {
       'jsdoc/require-jsdoc': 'error',
+      'jsdoc/no-restricted-syntax': ['error', {
+        contexts: [
+          {
+            context: 'FunctionDeclaration',
+            comment: 'JsdocBlock:not(*:has(JsdocTag[tag=governance]))',
+            message: 'Function must include a @governance tag in JSDoc.'
+          }
+        ]
+      }],
       'prefer-const': ['error', {
         destructuring: 'any',
         ignoreReadBeforeAssign: false
